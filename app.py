@@ -2,7 +2,7 @@ import panel as pn
 from openai import OpenAI
 
 pn.extension()
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = "sk-"
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",   # OpenRouter endpoint
     api_key=OPENAI_API_KEY
